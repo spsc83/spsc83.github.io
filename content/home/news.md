@@ -5,7 +5,7 @@ headless: true
 weight: 20
 
 title: Latest News
-subtitle:
+subtitle: test subtitle
 
 content:
   count: 5
