@@ -21,4 +21,4 @@ main:
     weight: 60
   - name: Test
     url: /#test
-    weight: 70
+    weight: 10
