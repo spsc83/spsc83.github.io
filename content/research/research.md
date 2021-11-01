@@ -1,7 +1,7 @@
 ---
 # An instance of the Blank widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: blank
+widget: research
 
 # This file represents a page section.
 headless: true
@@ -10,11 +10,13 @@ headless: true
 weight: 1
 
 # Section title
-title: Hello
+title: research page
 
 # Section subtitle
 subtitle:
 
+content:
+  
 # Section design
 design:
   # Use a 1-column layout
