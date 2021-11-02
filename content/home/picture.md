@@ -2,10 +2,8 @@
 widget: hero
 widget_id: welcome
 headless: true
-weight: 10
-title: |
-  Wowchemy  
-  Research Group1234
+weight: 11
+title:
 active: true
 design:
   columns: "1"
