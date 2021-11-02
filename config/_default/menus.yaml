@@ -15,10 +15,10 @@ main:
     weight: 40
   - name: Publications
     url: publication
-    weight: 50
+    weight: 32
   - name: Contact
     url: contact
     weight: 60
   - name: Research
     url: research
-    weight: 21
+    weight: 31
