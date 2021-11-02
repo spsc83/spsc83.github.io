@@ -17,4 +17,4 @@ subtitle:
 
 ---
 this is a picture:
-<img src="/pic/tree.jpg"
+<img src="/pic/tree.jpg">
