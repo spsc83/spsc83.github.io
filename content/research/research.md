@@ -1,37 +1,16 @@
 ---
-# An instance of the Blank widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: blank
-
-# This file represents a page section.
 headless: true
 
-# Order that this section appears on the page.
-weight: 100
-
-# Section title
-title: research page
-
-# Section subtitle
+# ... Put Your Section Options Here (title etc.) ...
+title: My New Section
 subtitle:
-
-content:
-  # Choose which groups/teams of users to display.
-  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups:
-  - Principal Investigators
-  - Researchers
-  - Grad Students
-  - Administration
-  - Visitors
-  - Alumni
-# Section design
+weight: 10  # section position on page
 design:
-  # Use a 1-column layout
-  columns: "1"
-  # Use a dark navy background with light text.
-
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns: '1'
 ---
 
-Add any content to the body of the section here.
-<h1>This is research page!!!</h1>
+Add any content here - text, images, videos, galleries - and even HTML code!
+
+<h1>This is research page!</h1>
