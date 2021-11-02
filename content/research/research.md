@@ -2,15 +2,17 @@
 widget: blank
 headless: true
 
-# ... Put Your Section Options Here (title etc.) ...
-title: My New Section
+
+title: research page
 subtitle:
-weight: 10  # section position on page
+weight: 10
+# Section design
 design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
+  # Use a 1-column layout
+  columns: "1"
+  # Use a dark navy background with light text.
+
 ---
 
-Add any content here - text, images, videos, galleries - and even HTML code!
-
-<h1>This is research page!</h1>
+Add any content to the body of the section here.
+<h1>This is research page!!!</h1>
