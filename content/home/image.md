@@ -51,7 +51,7 @@ subtitle:
     }
     .fade {
       -webkit-animation: fadeIn 2s 2s 1;
-      animation: fadeIn 2s 2s infinite; 
+      animation: fadeIn 2s 2s 1; 
     }
     #welcome_str{
       font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
