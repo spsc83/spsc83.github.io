@@ -48,7 +48,7 @@ subtitle:
   $(document).ready(function (){
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
-    $('#bg_img').width=$(window).width();
+    $('#bg_img').css("width", $(window).width());
   })
 </script>
 <div >
