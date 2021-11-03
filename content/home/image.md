@@ -84,13 +84,16 @@ subtitle:
     border-color: #EA6000;
     transform: rotate(135deg);
     margin: 0;
-    animation: dong 3s infinite;
+   
+  }
+  .dong{
+     animation: dong 3s infinite;
   }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function (){
-    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><span style='position: absolute; top: 0; left: 0;' id='arraw' class='arraw'></span><span style='position: absolute; top: 0; left: 0;' id='arraw2' class='arraw'></span>");
+    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><div class='dong'><span style='position: absolute; top: 0; left: 0;' id='arraw' class='arraw'></span><span style='position: absolute; top: 0; left: 0;' id='arraw2' class='arraw'></span></div>");
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
