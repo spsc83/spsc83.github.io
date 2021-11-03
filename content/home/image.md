@@ -66,16 +66,13 @@ subtitle:
    
   @keyframes dong { 
        0% {             
-           transform: translate(0px, 0px);  
-           transform: rotate(135deg);          
+           transform: translate(0px, 0px);        
         }            
         50% {                
            transform: translate(0px, -10px);   
-           transform: rotate(135deg);         
         }            
         100% {                
            transform: translate(0px, 0px);
-           transform: rotate(135deg);
         }
   }
    .arraw{
@@ -87,6 +84,7 @@ subtitle:
     border-color: #EA6000;
     margin: 0;
     animation: dong 1.5s infinite;
+    transform: rotate(135deg);
   }
 
 </style>
