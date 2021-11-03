@@ -33,12 +33,7 @@ subtitle:
             }
         }
     .ballon{
-            top: 0;
-            left: 0;
-            width:100%;
-            height:100%;
-            min-width: 1000px;
-
+            object-fit: cover;
 
             -webkit-animation-name: scaleDraw; /*关键帧名称*/
             -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
