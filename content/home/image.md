@@ -43,6 +43,12 @@ subtitle:
         }
 
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function (){
+    alert('hello! jquery');
+  })
+</script>
 <div >
   <img class='ballon' src='/pic/sun.jpeg'>
 </div>
