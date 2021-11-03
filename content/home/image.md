@@ -63,17 +63,28 @@ subtitle:
       color: black;
 
     }
+    .arraw{
+    display: inline-block;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    width: 100px;
+    height: 100px;
+    border-color: #EA6000;
+    transform: rotate(-135deg);
+    margin: 50px auto auto 100px;
+  }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function (){
-    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span>");
+    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><span class='arraw' id='arraw'></span>");
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
     $('#bg_img').css('height', $(window).height() - $('#navbar-main').height());
     $('#welcome_str').css('left',($(window).width() - $('#welcome_str').width())/2);
     $('#welcome_str').css('top',($(window).height() - $('#navbar-main').height())/2 - 50);
+    $('#array').css('top', $(window).height() - 50);
 
   })
 </script>
