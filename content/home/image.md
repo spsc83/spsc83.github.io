@@ -81,8 +81,8 @@ subtitle:
     display: inline-block;
     border-top: 2px solid;
     border-right: 2px solid;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-color: #EA6000;
     margin: 0;
     animation: dong 1.5s infinite;
