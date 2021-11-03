@@ -27,7 +27,12 @@ subtitle:
             }
         }
     .ballon{
-            object-fit: cover;
+            background-image: '/pic/sun.jpeg';
+            width: 100%;
+            max-width: 100%;
+            max-height: 500px;
+            background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
 
             -webkit-animation-name: scaleDraw; /*关键帧名称*/
             -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
@@ -36,6 +41,6 @@ subtitle:
         }
 
 </style>
-<div>
-  <img src="/pic/sun.jpeg", class='ballon'>
+<div class='ballon'>
+  
 </div>
