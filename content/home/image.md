@@ -29,6 +29,7 @@ subtitle:
     .ballon{
             background-image: url('/pic/sun.jpeg');
             width: 100%;
+            height: 100%;
             max-width: 100%;
             max-height: 500px;
             background-size: 100% 100%;
