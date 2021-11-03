@@ -39,14 +39,14 @@ subtitle:
             -webkit-animation-name: scaleDraw; /*关键帧名称*/
             -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
             -webkit-animation-iteration-count: 1;  /*动画播放的次数*/
-            -webkit-animation-duration: 5s; /*动画所花费的时间*/
+            -webkit-animation-duration: 15s; /*动画所花费的时间*/
         }
 
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function (){
-    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'>");
+    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' style='position: absolute; top: 0; left: 0;'>abcdef</span>");
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
