@@ -48,6 +48,7 @@ subtitle:
   $(document).ready(function (){
 
     alert('hello! jquery' + $('#bg_img').width());
+    $('#bg_img').width=$(window).width();
   })
 </script>
 <div >
