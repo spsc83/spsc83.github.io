@@ -50,7 +50,7 @@ subtitle:
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
-    $('#bg_img').css('height', $(window).height());
-    
+    $('#bg_img').css('height', $(window).height() - $('#navbar-main').height());
+
   })
 </script>
