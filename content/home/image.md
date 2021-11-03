@@ -50,8 +50,11 @@ subtitle:
       }
     }
     .fade {
-      -webkit-animation: fadeIn 2s 2s 1;
-      animation: fadeIn 2s 2s 1; 
+      -webkit-animation-name: fadeIn; /*关键帧名称*/
+      -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
+      -webkit-animation-iteration-count: 1;  /*动画播放的次数*/
+      -webkit-animation-duration: 5s; /*动画所花费的时间*/
+      
     }
     #welcome_str{
       font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
