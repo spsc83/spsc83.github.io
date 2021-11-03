@@ -25,6 +25,6 @@ design:
 <h3>Adaptation to environment in global populations</h3>
 <p>Modern human phenotypic differences betray their adaptations to their local environments since they evolved in African around 3-200,000 years ago and emerged out of it from 50,000 years ago to populate the rest of the world. I study the causes and consequences of local adaptation in global populations. Disease susceptibility is a trait which varies across individuals and populations in susceptibility, mechanism and age of onset. Environment plays a major role in the distribution of genetic and non-genetic contributors to the variability of disease.The phenotypic traits I have focused on include: susceptibility to diabetes in Asian populations, susceptibility to hypertension in African populations, and evidence of climate- and diet-based adaptations in these and other populations.</p>
 <div class="row">
-  <div class="col-12 mx-auto col-md-6 hero-media"><img src="/pic/ahg-cover_orig.jpg"></div>
   <div class="col-12 mx-auto col-md-6 hero-media"><img src="/pic/maps_orig.png"></div>
+  <div class="col-12 mx-auto col-md-6 hero-media"><img src="/pic/ahg-cover_orig.jpg"></div>
 </div>
