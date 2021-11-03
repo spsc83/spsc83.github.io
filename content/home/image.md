@@ -27,7 +27,7 @@ subtitle:
             }
         }
     .ballon{
-            background-image: '/pic/sun.jpeg';
+            background-image: url('/pic/sun.jpeg');
             width: 100%;
             max-width: 100%;
             max-height: 500px;
