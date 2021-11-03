@@ -51,9 +51,10 @@ subtitle:
     }
     .fade {
       -webkit-animation-name: fadeIn; /*关键帧名称*/
-      -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
-      -webkit-animation-iteration-count: 1;  /*动画播放的次数*/
-      -webkit-animation-duration: 5s; /*动画所花费的时间*/
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: 1; 
+      -webkit-animation-duration: 2s; 
+      -webkit-animation-fill-mode: forwards;
       
     }
     #welcome_str{
