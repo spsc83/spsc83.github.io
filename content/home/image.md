@@ -51,6 +51,8 @@ subtitle:
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
     $('#bg_img').css('height', $(window).height() - $('#navbar-main').height());
+    $('#welcome_str').css('left',($(window).width() - $('#welcome_str').width())/2);
+    $('#welcome_str').css('top',($(window).height() - $('#navbar-main').height())/2);
 
   })
 </script>
