@@ -77,7 +77,7 @@ subtitle:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function (){
-    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><div id='arraw' style='position: absolute;'><span class='arraw'></span><div>");
+    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><span style='position: absolute;' id='arraw' class='arraw'></span>");
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
