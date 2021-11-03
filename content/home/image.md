@@ -67,7 +67,7 @@ subtitle:
     display: inline-block;
     border-top: 2px solid;
     border-right: 2px solid;
-    width: 50px;
+    width: 20px;
     height: 50px;
     border-color: #EA6000;
     transform: rotate(135deg);
