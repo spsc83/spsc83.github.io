@@ -46,11 +46,8 @@ subtitle:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function (){
+    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'>");
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
-    $('#bg_img').css("width", $(window).width());
   })
 </script>
-<div >
-  <img class='ballon' src='/pic/sun.jpeg' id='bg_img'>
-</div>
