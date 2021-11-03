@@ -91,6 +91,7 @@ subtitle:
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
+  $('.page-body').hide();
   $(document).ready(function (){
     $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><span style='position: absolute; top: 0; left: 0;' id='arraw' class='arraw'></span><span style='position: absolute; top: 0; left: 0;' id='arraw2' class='arraw'></span>");
     console.log('bg_img.width='+$('#bg_img').width());
@@ -103,5 +104,6 @@ subtitle:
     $('#arraw').css('left', ($(window).width() - $('#arraw').width())/2)
     $('#arraw2').css('top', $(window).height() - $('#navbar-main').height() - 85);
     $('#arraw2').css('left', ($(window).width() - $('#arraw').width())/2)
+    $('.page-body').show();
   })
 </script>
