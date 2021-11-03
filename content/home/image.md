@@ -67,11 +67,11 @@ subtitle:
     display: inline-block;
     border-top: 2px solid;
     border-right: 2px solid;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-color: #EA6000;
-    transform: rotate(-45deg);
-    margin: 50px auto auto 100px;
+    transform: rotate(135deg);
+    margin: 0;
   }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
