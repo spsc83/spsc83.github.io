@@ -20,10 +20,10 @@ subtitle:
 <style type="text/css">
     @keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
             0%{
-                transform: scale(1);  /*开始为原始大小*/
+                transform: scale(1.3);  /*开始为原始大小*/
             }
             100%{
-                transform: scale(1.3);
+                transform: scale(1);
             }
         }
     .ballon{
