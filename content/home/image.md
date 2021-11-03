@@ -44,16 +44,18 @@ subtitle:
     @keyframes fadeIn {
       0% { 
         opacity: 0;
+        transform: translate(0px, -100px)
       }
       100% {
         opacity: 1;
+        transform: translate(0px, 0px)
       }
     }
     .fade {
       -webkit-animation-name: fadeIn; /*关键帧名称*/
       -webkit-animation-timing-function: ease-in-out;
       -webkit-animation-iteration-count: 1; 
-      -webkit-animation-duration: 2s; 
+      -webkit-animation-duration: 1s; 
       -webkit-animation-fill-mode: forwards;
       
     }
