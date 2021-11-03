@@ -44,7 +44,7 @@ subtitle:
     #welcome_str{
       font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
       font-size:2.5em;
-      color: white;
+      color: black;
 
     }
 </style>
