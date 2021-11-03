@@ -32,7 +32,7 @@ subtitle:
             width: 100%;
             height: 100%;
             max-width: 100%;
-            max-height: 500px;
+            max-height: 100%;
             background-size: cover;
             -moz-background-size: 100% 100%;
 
