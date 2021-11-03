@@ -70,7 +70,7 @@ subtitle:
     width: 100px;
     height: 100px;
     border-color: #EA6000;
-    transform: rotate(-135deg);
+    transform: rotate(-45deg);
     margin: 50px auto auto 100px;
   }
 </style>
