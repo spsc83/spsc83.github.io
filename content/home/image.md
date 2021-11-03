@@ -33,14 +33,17 @@ subtitle:
             }
         }
     .ballon{
-            width: 150px;
-            height: 200px;
-            background: url("/pic/sun.jpeg");
-            background-size: 150px 200px;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            min-width: 1000px;
+
+
             -webkit-animation-name: scaleDraw; /*关键帧名称*/
             -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
-            -webkit-animation-iteration-count: infinite;  /*动画播放的次数*/
-            -webkit-animation-duration: 5s; /*动画所花费的时间*/
+            -webkit-animation-iteration-count: 1;  /*动画播放的次数*/
+            -webkit-animation-duration: 20s; /*动画所花费的时间*/
         }
 
 </style>
