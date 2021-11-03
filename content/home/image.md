@@ -43,8 +43,9 @@ subtitle:
         }
     #welcome_str{
       font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
-      font-size:1.5em;
+      font-size:2.5em;
       color: white;
+
     }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
