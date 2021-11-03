@@ -13,8 +13,7 @@ headless: true
 weight: 1
 
 title: 12345
-subtitle: |
-abcdef
+subtitle: abcdef
 
 design:
   columns: "1"
