@@ -63,7 +63,19 @@ subtitle:
       color: black;
 
     }
-    .arraw{
+   
+  @keyframes dong { 
+       0% {             
+           transform: translate(0px, 0px);            
+        }            
+        50% {                
+           transform: translate(0px, -10px);            
+        }            
+        100% {                
+           transform: translate(0px, 0px);
+        }
+  }
+   .arraw{
     display: inline-block;
     border-top: 2px solid;
     border-right: 2px solid;
@@ -72,6 +84,7 @@ subtitle:
     border-color: #EA6000;
     transform: rotate(135deg);
     margin: 0;
+    animation: dong 3s infinite;
   }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
