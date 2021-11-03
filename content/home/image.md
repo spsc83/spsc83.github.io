@@ -44,6 +44,7 @@ subtitle:
     #welcome_str{
       font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
       font-size:1.5em;
+      color: white;
     }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -55,7 +56,7 @@ subtitle:
     $('#image').css('padding', 0);
     $('#bg_img').css('height', $(window).height() - $('#navbar-main').height());
     $('#welcome_str').css('left',($(window).width() - $('#welcome_str').width())/2);
-    $('#welcome_str').css('top',($(window).height() - $('#navbar-main').height())/2);
+    $('#welcome_str').css('top',($(window).height() - $('#navbar-main').height())/2 - 50);
 
   })
 </script>
