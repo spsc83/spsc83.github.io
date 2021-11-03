@@ -68,7 +68,7 @@ subtitle:
     border-top: 2px solid;
     border-right: 2px solid;
     width: 20px;
-    height: 50px;
+    height: 20px;
     border-color: #EA6000;
     transform: rotate(135deg);
     margin: 0;
@@ -77,7 +77,7 @@ subtitle:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function (){
-    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><span style='position: absolute; top: 0; left: 0;' id='arraw' class='arraw'></span>");
+    $('#image').append("<img class='ballon' src='/pic/sun.jpeg' id='bg_img'><span id='welcome_str' class='fade' style='position: absolute; top: 0; left: 0;'>WELCOME TO SRI'S LAB</span><span style='position: absolute; top: 0; left: 0;' id='arraw' class='arraw'></span><span style='position: absolute; top: 0; left: 0;' id='arraw2' class='arraw'></span>");
     console.log('bg_img.width='+$('#bg_img').width());
     console.log('window width='+$(window).width());
     $('#image').css('padding', 0);
@@ -86,6 +86,7 @@ subtitle:
     $('#welcome_str').css('top',($(window).height() - $('#navbar-main').height())/2 - 50);
     $('#arraw').css('top', $(window).height() - $('#navbar-main').height() - 80);
     $('#arraw').css('left', ($(window).width() - $('#arraw').width())/2)
-
+    $('#arraw2').css('top', $(window).height() - $('#navbar-main').height() - 85);
+    $('#arraw2').css('left', ($(window).width() - $('#arraw').width())/2)
   })
 </script>
