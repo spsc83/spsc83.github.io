@@ -84,7 +84,7 @@ subtitle:
     $('#bg_img').css('height', $(window).height() - $('#navbar-main').height());
     $('#welcome_str').css('left',($(window).width() - $('#welcome_str').width())/2);
     $('#welcome_str').css('top',($(window).height() - $('#navbar-main').height())/2 - 50);
-    $('#arraw').css('top', $(window).height() - 80);
+    $('#arraw').css('top', $(window).height() - - $('#navbar-main').height() - 80);
     $('#arraw').css('left', ($(window).width() - $('#arraw').width())/2)
 
   })
