@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Multiple risk factors contribute to childhood stunting in Karnataka, India"
-authors: [Srilakshmi M. Raj1,2,*, Ruwanthi Ekanayake3, Meenakshi Bhat2, Jayarama Kadandale2 and Prabhu L. Pingali1]
+authors: [Srilakshmi M. Raj, Ruwanthi Ekanayake, Meenakshi Bhat, Jayarama Kadandale, Prabhu L. Pingali]
 date: 2021-11-04T11:02:31-04:00
 doi: ""
 
