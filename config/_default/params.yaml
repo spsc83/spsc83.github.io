@@ -30,8 +30,8 @@ address:
   country: United States
   country_code: US
 coordinates:
-  latitude: '40.851444'
-  longitude: '73.845667'
+  latitude: '73.845667'
+  longitude: '40.851444'
 directions: 
 office_hours:
 
