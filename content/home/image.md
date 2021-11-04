@@ -39,7 +39,7 @@ subtitle:
             -webkit-animation-name: scaleDraw; /*关键帧名称*/
             -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
             -webkit-animation-iteration-count: 1;  /*动画播放的次数*/
-            -webkit-animation-duration: 15s; /*动画所花费的时间*/
+            -webkit-animation-duration: 10s; /*动画所花费的时间*/
         }
     @keyframes fadeIn {
       0% { 
