@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Raj Risk 2021"
-authors: []
+title: "Risk factors in childhood stunting in Karnataka, India, vary by geography"
+authors: [Srilakshmi M. Raj, Ruwanthi Ekanayake, Kiera Crowley, Meenakshi Bhat, Jayarama Kadandale, Prabhu L. Pingali]
 date: 2021-11-04T10:47:16-04:00
 doi: ""
 
@@ -13,18 +13,18 @@ publishDate: 2021-11-04T10:47:16-04:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "CURRENT SCIENCE"
 publication_short: ""
 
-abstract: ""
+abstract: "Childhood stunting remains a public health concern in India. In Karnataka, the districts vary substantially in stunting prevalence. Using the NFHS-4 and AidData GEO datasets, we tested the hypothesis that ‘wet’ and ‘dry’ districts in Karnataka show different contribu-tions to stunting. We found that for 30 environmental and health factors, Bengaluru appears to be distinct from the other districts. Using a mixed linear model approach, we found that for the entire state, and in both wet and dry districts, preceding birth interval, altitude-adjusted haemoglobin level and child age showed significant correlations with height for age (HFA). The wet districts showed an additional associa-tion between maternal age and child HFA. However, interaction effects also differed among the three con-ditions. Our results suggest that subtle variations should not be ignored when considering factors im-pacting child health outcomes."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: []
+tags: [Childhood stunting in Karnataka, environ-ment, genetics, nutrition, public health]
 categories: []
 featured: false
 
