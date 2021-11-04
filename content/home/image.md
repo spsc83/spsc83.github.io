@@ -44,11 +44,11 @@ subtitle:
     @keyframes fadeIn {
       0% { 
         opacity: 0;
-        transform: translate(0px, -50px)
+        transform: translate(0px, -50px);
       }
       100% {
         opacity: 1;
-        transform: translate(0px, 0px)
+        transform: translate(0px, 0px);
       }
     }
     .fade {
