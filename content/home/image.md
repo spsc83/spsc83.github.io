@@ -52,6 +52,7 @@ subtitle:
       }
     }
     .fade {
+      display: inline-block;
       -webkit-animation-name: fadeIn; /*关键帧名称*/
       -webkit-animation-timing-function: ease-in-out;
       -webkit-animation-iteration-count: 1; 
