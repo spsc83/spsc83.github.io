@@ -52,7 +52,6 @@ subtitle:
       }
     }
     .fade {
-      display: inline-block;
       -webkit-animation-name: fadeIn; /*关键帧名称*/
       -webkit-animation-timing-function: ease-in-out;
       -webkit-animation-iteration-count: 1; 
@@ -77,7 +76,7 @@ subtitle:
         100% {                
            transform: translate(0px, 0px) rotate(135deg);
         }
-  }
+   }
    .arraw{
     display: inline-block;
     border-top: 2px solid;
