@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Raj Reconstruction 2019"
-authors: []
+title: "Reconstruction of nine thousand years of agriculture-based diet and impact on human genetic diversity in Asia"
+authors: [Srilakshmi M. Raj, Allison Pei, Matthieu Foll, Florencia Schlamp, Laurent Excoffier, Dorian Q. Fuller, Toomas Kivisild, Andrew G. Clark]
 date: 2021-11-04T12:22:40-04:00
 doi: ""
 
