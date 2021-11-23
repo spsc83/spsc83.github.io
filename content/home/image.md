@@ -17,6 +17,10 @@ subtitle:
 
 
 ---
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
 <style type="text/css">
     @keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
             0%{
@@ -60,7 +64,7 @@ subtitle:
       
     }
     #welcome_str{
-      font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+      font-family: 'Julius Sans One', sans-serif;
       font-size:3.5em;
       color: black;
 
