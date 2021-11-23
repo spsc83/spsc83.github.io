@@ -67,7 +67,7 @@ subtitle:
       
     }
     #welcome_str{
-      font-family: 'Krub', 'Julius Sans One', sans-serif;
+      font-family: 'Julius Sans One', 'Krub', sans-serif;
       font-size:3.5em;
       color: black;
 
