@@ -20,6 +20,9 @@ subtitle:
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Krub:wght@200&display=swap" rel="stylesheet">
 
 <style type="text/css">
     @keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
@@ -64,7 +67,7 @@ subtitle:
       
     }
     #welcome_str{
-      font-family: 'Julius Sans One', sans-serif;
+      font-family: 'Krub', 'Julius Sans One', sans-serif;
       font-size:3.5em;
       color: black;
 
