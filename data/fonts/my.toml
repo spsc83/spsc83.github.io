@@ -3,7 +3,7 @@ name = "my"
 google_fonts = "family=Julius+Sans+One&family=Krub:wght@200"
 # Font families
 heading_font = "Julius Sans One"
-body_font = "Julius Sans One"
+body_font = "Krub"
 nav_font = "Julius Sans One"
 mono_font = "Julius Sans One"
 
