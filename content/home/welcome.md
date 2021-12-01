@@ -9,7 +9,7 @@ design:
   columns: "1"
   css_style: null
   css_class: null
-hero_media: welcome.jpg
+hero_media: head.jpeg
 ---
 
 <p style="font-size: 1em;">Dr. Srilakshmi (Sri) Raj is a population geneticist who aims to understand why disease risk varies among individuals and ethnically diverse populations. She investigates environmental-context dependent genetic variation and how it can be used to understand and predict complex disease in different global populations.</p>
