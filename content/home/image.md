@@ -30,7 +30,7 @@ subtitle:
                 opacity: 0;
                 transform: scale(1.3);  /*开始为原始大小*/
             }
-            10%{
+            20%{
                 opacity: 1;
                 transform: scale(1.3);
             }
