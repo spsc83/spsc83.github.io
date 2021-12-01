@@ -75,7 +75,7 @@ subtitle:
     #welcome_str{
       font-family: 'Julius Sans One', 'Krub', sans-serif;
       font-size:3.5em;
-      color: black;
+      color: #2C3E50;
 
     }
    
