@@ -27,9 +27,15 @@ subtitle:
 <style type="text/css">
     @keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
             0%{
+                opacity: 0;
                 transform: scale(1.3);  /*开始为原始大小*/
             }
+            10%{
+                opacity: 1;
+                transform: scale(1.3);
+            }
             100%{
+                opacity: 1;
                 transform: scale(1);
             }
         }
